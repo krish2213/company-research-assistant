@@ -1,0 +1,58 @@
+# ----------------------------------------------------------------------
+# Project-Specific Exclusions (CRITICAL)
+# ----------------------------------------------------------------------
+# Exclude the environment file containing the sensitive Groq API Key
+.env
+
+# ----------------------------------------------------------------------
+# Python / Environment Exclusions
+# ----------------------------------------------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.tmp
+
+# Shared Library files
+*.so
+*.dylib
+
+# Distributions and wheels
+.Python
+build/
+dist/
+venv/
+*.egg-info/
+
+# Unit test / coverage outputs
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Type checking
+.mypy_cache/
+
+# ----------------------------------------------------------------------
+# OS / Editor Exclusions
+# ----------------------------------------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Jupyter/IPython Notebooks
+.ipynb_checkpoints
+
+# IDE/Editor files (e.g., Vim, Emacs, Sublime Text)
+*~
+*.swp
+*.bak
